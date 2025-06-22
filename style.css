@@ -1,0 +1,23 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    background: black;
+    overflow: hidden;
+    height: 100vw;
+    width: 100vw;
+}
+
+canvas
+{
+    position: absolute;
+    z-index: 0;
+}
+
+@media(max-width: 768px)  and (orientation: landscape) and (fullscreen)
+{
+    .canvas
+    {
+        width: 50%;
+    }
+}
